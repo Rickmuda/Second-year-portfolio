@@ -1,0 +1,147 @@
+body {
+    font-family: Nintendo, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0e204d; /*Background for index.html will be added when finished*/     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  @font-face {
+    font-family: Nintendo;
+    src: url(/fonts/Nintendo.otf);
+
+  }
+  
+  .logo {
+    margin-top: auto;
+  }
+
+      .logo img {
+          max-width: 40%;
+          height: auto;
+          opacity: 1; 
+                transition: opacity 1s; /* Apply a 1-second opacity transition */
+            }
+
+  .continue {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    color: red;    
+  }
+
+            .blinking-text {
+                animation: blink 2s infinite; 
+            }
+
+            @keyframes blink {
+                0% {
+                    opacity: 1; 
+                }
+                50% {
+                    opacity: 0; 
+                }
+                100% {
+                    opacity: 1; 
+                }
+            }
+
+  .copyright {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;    
+    -webkit-text-stroke: black 1px;
+    font-size: 20px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); 
+    z-index: 2; 
+    transition: background 1s;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.square {
+  width: 1000px; 
+  height: 400px; 
+  background-color: #395994; 
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px; 
+  border: #4766a1 solid 7px;
+  border-radius: 2%;
+}
+
+.custom-text {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Nintendo;
+  font-size: 20px;
+  color: #469096;
+  text-decoration: none;
+}
+
+.custom-text:visited {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Nintendo;
+  font-size: 20px;
+  color: #469096;
+  text-decoration: none;
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Start with black */
+  animation: fadeOut 2s ease-in-out forwards; /* Adjust duration as needed */
+  z-index: 2; /* Above content */
+  -webkit-text-stroke: #000 2px;
+}
+
+/* Rest of your CSS styles... */
+
+.fade-in {
+  z-index: 1; /* Below black overlay */
+  /* Your website content styles */
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 1; /* Start with full opacity (black) */
+  }
+  to {
+      opacity: 0; /* End with 0 opacity (transparent) */
+  }
+}
+
+
