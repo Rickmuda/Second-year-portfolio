@@ -1,9 +1,10 @@
 body {
-  font-family: Nintendo, sans-serif;
+  font-family: Geizer, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #0e204d;
+  background-color: #B0926A;
+  /* background-image: url("../img/brickwallVAR2.png"); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,14 +14,13 @@ body {
 }
 
 @font-face {
-  font-family: Nintendo;
-  src: url(/fonts/Nintendo.otf);
+  font-family: Geizer;
+  src: url(/fonts/Geizer.otf);
 }
 
 /* Anti-text decoration */
 body a:visited {
-  text-decoration: none;
-  color: #469096;
+  color: #706233;
   -webkit-text-stroke: rgba(0, 0, 0, 0.559) 5px;
 }
 
@@ -29,32 +29,47 @@ a:link {
 }
 
 /* Text */
-h1, h2 {
-  color: #0a1324;
+h1{
+  color: #706233;
+  font-size: 40px;
+  -webkit-text-stroke: rgba(0, 0, 0, 0.559) 1px;
 }
 
-/* Index page */
-
-.logo {
-  margin-top: auto;
+h2 {
+  color: #706233;
+  -webkit-text-stroke: rgba(0, 0, 0, 0.559) 1px;
 }
 
-          .logo img {
-            max-width: 40%;
-            height: auto;
-            opacity: 1;
-            transition: opacity 1s;
+p {
+  color: #706233;
+  font-size: 40px;
+  -webkit-text-stroke: rgba(0, 0, 0, 0.559) 1px;
+}
+
+
+/* "Return" Link */
+.custom-text a {
+  text-decoration: none;
+  font-family: Geizer;
+  color: #706233;
+  -webkit-text-stroke: rgba(0, 0, 0, 0.559) 1px;
+  display: block;
+  text-align: center; /* Center the text horizontally */
+}
+
+          .custom-text:visited {
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            font-family: Geizer;
+            font-size: 20px;
+            color: #706233;
           }
 
-
-
-.continue {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
-  margin-top: 10px;
-  color: red;
-}
+          .custom-text a:visited {
+            color: #706233;
+          }
 
           .blinking-text {
             animation: blink 2s infinite;
@@ -72,158 +87,6 @@ h1, h2 {
             }
           }
 
-
-
-.copyright {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
-  margin-top: 10px;
-  color: white;
-  -webkit-text-stroke: black 1px;
-  font-size: 20px;
-}
-
-
-
-/* Saves page */
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-  z-index: 2;
-  transition: background 1s;
-}
-
-          .fade-out {
-            opacity: 0;
-            transition: opacity 1s;
-          }
-
-.square {
-  width: 1000px;
-  height: 600px;
-  background-color: #395994;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 100px;
-  border: #4766a1 solid 7px;
-  border-radius: 2%;
-  border-top: 20px solid #2b4576;
-  border-left: 20px solid #2b4576;
-}
-
-
-
-.textbox {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
-
-.small-box {
-  display: block;
-  width: 750px;
-  height: 70px;
-  background-color: #314b81;
-  position: absolute;
-  border: #14203c solid 2px;
-  border-radius: 2px;
-
-}
-
-      .small-box:hover {
-        background-color: #2a3e69;
-      }
-
-          .small-box:nth-child(1) { /* Save 1 */
-            top: 120px;
-            left: 140px;                     
-          }
-
-                  .small-box:nth-child(1) h1{
-                    margin-left: 20px;
-                    text-align: left;
-                  }
-
-          .small-box:nth-child(2) { /* Save 2 */
-            top: 190px;
-            left: 140px;            
-          }
-
-                .small-box:nth-child(2) h1{
-                  margin-left: 20px;
-                  text-align: left;
-                }
-
-          .small-box:nth-child(3) { /* Save 3 */
-            top: 260px;
-            left: 140px;
-          }
-
-                .small-box:nth-child(3) h1{
-                  margin-left: 20px;
-                  text-align: left;
-                }
-
-
-
-
-
-/* "Return" Link */
-.custom-text a {
-  text-decoration: none;
-  font-family: Nintendo;
-  font-size: 20px;
-  color: #469096;
-  -webkit-text-stroke: rgba(0, 0, 0, 0.559) 1px;
-  display: block;
-  margin: 0 auto 20px; /* Center the link horizontally, add space at the bottom */
-  text-align: center; /* Center the text horizontally */
-  margin-bottom: 20px; /* Add 20px spacing from the bottom */
-}
-
-          .custom-text:visited {
-            text-align: center;
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-family: Nintendo;
-            font-size: 20px;
-            color: #469096;
-            text-decoration: none !important;
-          }
-
-          .custom-text a:visited {
-            text-decoration: none !important;
-            color: #469096;
-          }
-
-.black-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  animation: fadeOut 2s ease-in-out forwards;
-  z-index: 2;
-  -webkit-text-stroke: #000 2px;
-}
-
-.fade-in {
-  z-index: 1;
-}
-
 @keyframes fadeOut {
   from {
       opacity: 1;
@@ -234,27 +97,4 @@ h1, h2 {
 }
 
 
-/* Character Image */
-.character {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px; /* Add space between character image and text box */
-}
 
-#character-image {
-  max-width: 100%; /* Ensure the image is responsive */
-  width: 500px; /* Customize the width as needed */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Text Box */
-#text-box {
-  padding: 10px;
-  width: 75%; /* Adjust the width as needed */
-  max-height: 200px; /* Set a maximum height for the text box */
-  white-space: normal; /* Allow text to wrap */
-  word-wrap: break-word; /* Enable word wrap */
-  margin: 0 auto 30px; /* Center the text box horizontally, add space at the bottom */
-  border: none; /* Remove the border around the text box */
-  overflow-y: hidden; /* Hide the vertical scrollbar */
-}

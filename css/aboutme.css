@@ -1,0 +1,26 @@
+/* Character Image */
+.character {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px; /* Add space between character image and text box */
+  }
+  
+  #character-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    width: 500px; /* Customize the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Text Box */
+  #text-box {
+    padding: 10px;
+    width: 75%; /* Adjust the width as needed */
+    max-height: 200px; /* Set a maximum height for the text box */
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Enable word wrap */
+    margin: 0 auto 30px; /* Center the text box horizontally, add space at the bottom */
+    border: none; /* Remove the border around the text box */
+    overflow-y: hidden; /* Hide the vertical scrollbar */
+  }
+  
+  

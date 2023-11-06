@@ -1,38 +1,4 @@
-body {
-        font-family: Nintendo, sans-serif;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        background-color: #0e204d;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 100vh;
-        overflow: hidden;
-      
-}
-  
-  @font-face {
-    font-family: Nintendo;
-    src: url(/fonts/Nintendo.otf);
-  }
-  
-  /* Anti-text decoration */
-  body a:visited {
-    text-decoration: none;
-    color: #469096;
-    -webkit-text-stroke: rgba(0, 0, 0, 0.559) 5px;
-  }
-  
-  a:link {
-    text-decoration: none;
-  }
-  
-  /* Text */
-  h1, h2 {
-    color: #0a1324;
-  }
+
   article {
 	margin: 0 10px;
 }
@@ -195,7 +161,7 @@ body {
 				width: 0;
 				height: 100%;
 				content: "";
-				box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+
 				z-index: 2;
 			}
 			
@@ -206,7 +172,7 @@ body {
 				width: 0;
 				height: 100%;
 				content: "";
-				box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.3);
+
 				z-index: 1;
 			}
 			
@@ -220,8 +186,8 @@ body {
 				
 /* PS3 */
 .case.ps3 > div {
-	background: #4b4c4b;
-	background: rgba(68, 69, 67, 0.8);
+	background: #0000009e;
+
 }
 
 	.case.ps3 > div > .logo {
@@ -247,8 +213,7 @@ body {
 }
 
 .case.xbox > div {
-	background: #4b4c4b;
-	background: rgba(68, 69, 67, 0.8);
+	background: #0000009e;
 	padding: 3px 3px 3px 0;
 	border-radius: 2px 5px 5px 2px;
 }

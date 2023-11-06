@@ -1,0 +1,31 @@
+/* Index page */
+
+.logo {
+    margin-top: 25px;
+  }
+  
+            .logo img {
+              max-width: 40%;
+              height: auto;
+              opacity: 1;
+              transition: opacity 1s;
+            }
+  
+  .continue {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    color: red;
+  }
+  
+  .copyright {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    -webkit-text-stroke: black 1px;
+    font-size: 20px;
+  }
+  
