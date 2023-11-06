@@ -1,61 +1,42 @@
 /* Saves page */
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    z-index: 2;
-    transition: background 1s;
-  }
-  
-            .fade-out {
-              opacity: 0;
-              transition: opacity 1s;
-            }
-
-  .small-box {
-    display: block;
-    width: 750px;
-    height: 70px;
-    background-color: #314b81;
-    position: absolute;
-    border: #14203c solid 2px;
-    border-radius: 2px;
-  }
-  
-.small-box:hover {
-  background-color: #2a3e69;
+.selections {
+  margin-top: auto;
+  margin-bottom: 230px;
 }
-  
-    .small-box:nth-child(1) { /* Save 1 */
-      top: 120px;
-      left: 140px;                     
-    }
-  
-          .small-box:nth-child(1) h1{
-            margin-left: 20px;
-            text-align: left;
-          }
-  
-    .small-box:nth-child(2) { /* Save 2 */
-      top: 190px;
-      left: 140px;            
-    }
-  
-          .small-box:nth-child(2) h1{
-            margin-left: 20px;
-            text-align: left;
-          }
-  
-    .small-box:nth-child(3) { /* Save 3 */
-      top: 260px;
-      left: 140px;
-    }
-  
-          .small-box:nth-child(3) h1{
-            margin-left: 20px;
-            text-align: left;
-          }
+
+.btn {
+  display: inline-block;
+  line-height: 50px; /* Set line height to match button height */
+  cursor: pointer;
+  text-decoration: none;
+  color: #81b071;
+  position: relative; /* Add relative positioning */
+}
+
+.btn:hover, .inv {
+  background-color: #81b071;
+  color: #5a9470;
+  text-shadow: none;
+  top: -2px; /* Offset the button slightly up when hovering */
+}
+
+.btn:visited{
+  display: inline-block;
+  height: 16px;
+  line-height: 15px;
+  background-color: #5a9470;
+  color: #81b071;
+  text-shadow: none;
+}
+
+.btn:visited:hover{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding: 0 3px;
+  background-color: #81b071;
+  color: #5a9470;
+  text-shadow: none;
+}

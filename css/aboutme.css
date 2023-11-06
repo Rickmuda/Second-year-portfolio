@@ -2,7 +2,7 @@
 .character {
     width: 100%;
     text-align: center;
-    margin-bottom: 30px; /* Add space between character image and text box */
+    margin-top: 50px;
   }
   
   #character-image {
@@ -21,6 +21,13 @@
     margin: 0 auto 30px; /* Center the text box horizontally, add space at the bottom */
     border: none; /* Remove the border around the text box */
     overflow-y: hidden; /* Hide the vertical scrollbar */
+  }
+
+  #text-box {
+    font-size: 20px;
+    color: #2a2a2a ;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #454a4d;
   }
   
   
