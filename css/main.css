@@ -10,7 +10,6 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  overflow: hidden;
 }
 
 @font-face {
@@ -34,11 +33,6 @@ h1{
   -webkit-text-stroke: #454a4d 0.2px;
 }
 
-h1:hover {
-  color: #2f7571;
-  -webkit-text-stroke: #454a4d00 0.2px;
-}
-
 h2 {
   color: #2a2a2b;
   -webkit-text-stroke: #454a4d 0.5px;
@@ -54,6 +48,12 @@ h3 {
   color: #2a2a2b;
   font-size: 35px;
   -webkit-text-stroke: #454a4d 0.5px;
+}
+
+h4 {
+  color: #2a2a2b;
+  font-size: 40px;
+  -webkit-text-stroke: #454a4d 0.2px;
 }
 
 

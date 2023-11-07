@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let typingSpeed = 50; // Adjust the typing speed as needed (milliseconds)
   let isTyping = false;
   
-  const images = ['../img/self-image-1.png', '../img/self-image-2.png'];
+  const images = ['../img/about_me/self-image-1.png', '../img/about_me/self-image-2.png'];
   let currentImageIndex = 0;
   
   // Create an audio element and set the source to the new sound path
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
                       // Text line is fully typed, increment the line index
                       currentLineIndex++;
                       isTyping = false;
-                      imageElement.src = '../img/self-image-1.png'; // Set the image to self-image-1 when typing is done
+                      imageElement.src = '../img/about_me/self-image-1.png'; // Set the image to self-image-1 when typing is done
                       
                       // Pause the audio when typing is done
                       audioElement.pause();
