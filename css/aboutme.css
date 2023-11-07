@@ -9,6 +9,8 @@
     max-width: 100%; /* Ensure the image is responsive */
     width: 500px; /* Customize the width as needed */
     height: auto; /* Maintain aspect ratio */
+    border: 5px solid #a07cff;
+    background-color: #fff3f3;
   }
   
   /* Text Box */
@@ -24,10 +26,10 @@
   }
 
   #text-box {
-    font-size: 20px;
-    color: #2a2a2a ;
+    font-size: 25px;
+    color: #fff3f3 ;
     -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #454a4d;
+    -webkit-text-stroke-color: #a07cff;
   }
   
   

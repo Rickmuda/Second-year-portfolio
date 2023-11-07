@@ -10,13 +10,24 @@
   line-height: 50px; /* Set line height to match button height */
   cursor: pointer;
   text-decoration: none;
-  color: #5a9470;
+  color: #fff3f3;
   position: relative; /* Add relative positioning */
 }
 
+.btn:hover {
+  background-color: #fff3f3;
+  color: #2c2c2a !important;
+  text-shadow: none;
+  top: -2px; /* Offset the button slightly up when hovering */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -30px;
+  padding-bottom: -30px;
+}
+
 .btn:hover, .inv {
-  background-color: #81b071;
-  color: #5a9470;
+  background-color: #fff3f3;
+  color: #2c2c2a !important;
   text-shadow: none;
   top: -2px; /* Offset the button slightly up when hovering */
   padding-left: 15px;
@@ -29,8 +40,8 @@
   display: inline-block;
   height: 16px;
   line-height: 15px;
-  background-color: #81b071;
-  color: #5a9470;
+  background-color: #fff3f3;
+  color: #fff3f3;
   text-shadow: none;
 }
 
@@ -40,7 +51,6 @@
   justify-content: center;
   height: 20px;
   padding: 0 3px;
-  background-color: #81b071;
-  color: #5a9470;
+  background-color: #fff3f3;
   text-shadow: none;
 }

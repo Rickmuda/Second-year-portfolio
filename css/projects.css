@@ -15,10 +15,19 @@
     flex: 50%;
     padding: 10px;
     margin: 0 150px;
+    
 }
 
-    .column img {
-        max-width: auto;
-        height: 250px;
+.column img {
+    max-width: auto;
+    height: 250px;
+    border: 5px solid #a07cff;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-decoration-break: clone;
+}
 
-    }
+
+.column:hover img {
+    border: 5px solid #fff3f3;
+}
