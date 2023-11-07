@@ -10,7 +10,7 @@
   line-height: 50px; /* Set line height to match button height */
   cursor: pointer;
   text-decoration: none;
-  color: #81b071;
+  color: #5a9470;
   position: relative; /* Add relative positioning */
 }
 
@@ -29,8 +29,8 @@
   display: inline-block;
   height: 16px;
   line-height: 15px;
-  background-color: #5a9470;
-  color: #81b071;
+  background-color: #81b071;
+  color: #5a9470;
   text-shadow: none;
 }
 
