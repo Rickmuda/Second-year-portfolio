@@ -1,7 +1,7 @@
 /* Index page */
 
 .logo {
-    margin-top: 25px;
+    margin-top: 100px;
   }
   
             .logo img {
@@ -16,7 +16,6 @@
     max-width: 400px;
     padding: 10px;
     margin-top: 5px;
-    color: red;
   }
   
   .copyright {
