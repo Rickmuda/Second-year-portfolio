@@ -1,0 +1,61 @@
+/* 
+#454a4d Text Border
+#2f7571 Background
+#81b071 Button background
+#2a2a2b Text
+#5a9470 Hover text 
+*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    margin: 0 150px;
+}
+
+    .column img {
+        max-width: auto;
+        height: 250px;
+
+    }
+
+    .category-container {
+        width: 100%;
+    }
+
+    .category-div {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .category-div:hover {
+        background-color: #5a9470;
+        color: #2a2a2b;
+    }
+
+    .category-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .category-content a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        text-decoration: none;
+    }
+
+    .category-content a:hover {
+        background-color: #5a9470;
+        color: #2a2a2b;
+    }
