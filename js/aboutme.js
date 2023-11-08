@@ -76,3 +76,12 @@ document.addEventListener('DOMContentLoaded', function () {
       displayNextLine();
   });
 });
+
+if (currentLineIndex === 3) {
+    let imageElement1 = document.getElementById('image1');
+    let imageElement2 = document.getElementById('image2');
+    imageElement1.src = '../img/about_me/hand.png';
+    imageElement2.src = '../img/about_me/CV.png';
+    imageElement1.style.display = 'block';
+    imageElement2.style.display = 'block';
+}
