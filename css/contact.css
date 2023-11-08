@@ -24,6 +24,7 @@
 
     .category-container {
         width: 100%;
+        margin-bottom: -23px;
     }
 
     .category-div {
