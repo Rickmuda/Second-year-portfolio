@@ -1,0 +1,107 @@
+/*Main*/
+h1 {
+    color: #fff3f3;
+    font-size: 30px;
+    -webkit-text-stroke: #a07cff 0.2px;
+}
+
+h3 {
+    color: #fff3f3;
+    font-size: 20px;
+    -webkit-text-stroke: #a07cff 0.2px;
+}
+
+h5 {
+    color: #fff3f3;
+    font-size: 15px;
+}
+
+p{
+    color: #fff3f3;
+    font-size: 15px;
+    -webkit-text-stroke: #a07cff 0.2px;
+}
+
+/* Index */
+.logo {
+    margin-top: 90px;
+    margin-bottom: 63px;
+}
+        .logo img {
+            max-width: 60%;
+            height: auto;
+            opacity: 1;
+            transition: opacity 1s;
+        }
+
+.continue {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+
+}
+
+.copyright {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    -webkit-text-stroke: black 1px;
+    font-size: 20px;
+}
+
+/*Saves*/
+.selections {
+    margin-top: 100px;
+}
+
+.btn {
+    padding: 10px;
+}
+
+/*About me*/
+
+.character {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#character-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    width: 350px; /* Customize the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #a07cff;
+    background-color: #fff3f3;
+  }
+
+/*Projects*/
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.column img {
+    max-width: auto;
+    height: 150px;
+    border: 5px solid #a07cff;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-decoration-break: clone;
+    margin-bottom: 10px; /* Add some space between the images */
+}
+
+
+.column:hover img {
+    border: 5px solid #fff3f3;
+}
+
+/*Contact*/
