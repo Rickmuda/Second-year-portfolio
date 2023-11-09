@@ -22,6 +22,10 @@ p{
     -webkit-text-stroke: #a07cff 0.2px;
 }
 
+.custom-text{
+	padding-bottom: 15px;
+}
+
 /* Index */
 .logo {
     margin-top: 90px;
