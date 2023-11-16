@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: easyvhs;
+    src: url(../fonts/easvhs.ttf);
+}
+
+body {
+    background-color: #292b30;
+    color: #cfab4a;
+    font-family: 'easyvhs', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Category buttons */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.category-btn {
+    background-color: #cfab4a;
+    border: none;
+    color: #292b30;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'easyvhs', sans-serif;
+}
+
+.category-btn:hover {
+    background-color: #292b30;
+    color: #cfab4a;
+}
+
+/* Category items */
+.category-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.category-list {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    margin: 10px 0;
+    color: #cfab4a;
+}
+
+.category-list.show {
+    display: block;
+}
+
+.exercise {
+    text-align: center;
+    width: 30%; /* Set the width to 30% for 3 items in a row */
+    margin: 0 1.5%; /* Adjust the margin to create space between items */
+    display: inline-block; /* Display exercises in-line */
+    vertical-align: top; /* Align exercises at the top of the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.exercise h3 {
+    margin-top: 10px;
+}
+
+.exercise img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

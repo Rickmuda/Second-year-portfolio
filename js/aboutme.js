@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "I enjoy solving problems, and I like to be creative with my solutions.",
       "I also like to learn new things, and I am always looking for ways to improve myself.",
       "And in my spare time, I like to play video games, watch movies, and listen to music.",
-      "My favorite game is Elden Ring, my favorite movie is Spiderman into the spiderverse, and my favorite artist is MF DOOM.",
+      "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderverse, and my favorite artist is MF DOOM.",
   ];
   
   let currentLineIndex = 0;

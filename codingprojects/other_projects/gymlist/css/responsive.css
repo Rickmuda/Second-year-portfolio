@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: easyvhs;
+    src: url(../fonts/easvhs.ttf);
+}
+
+body {
+    background-color: #292b30;
+    color: #cfab4a;
+    font-family: 'easyvhs', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.exercise {
+    text-align: center;
+    width: 30%; /* Set the width to 30% for 3 items in a row */
+}
+
+.exercise h3 {
+    margin-top: 10px;
+}
+
+.exercise img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
