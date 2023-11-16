@@ -3,11 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const imageElement = document.getElementById('character-image');
   const textLines = [
       "Greetings.",
-      "Line 2: Here's the second line of text.",
-      "Line 3: This is the third line.",
-      "Line 4: The fourth line is coming up.",
-      "Line 5: Here's the fifth line of text.",
-      "Line 6: This is the last line for this demonstrationasdasdasdasdasd asdasdasd asdasda asdasd asdasdasd asdasd asasas a a ."
+      "My name is Rick Ambergen, and I am a 21-year-old student at Alfa-College Groningen.",
+      "I am currently studying Software Development, and I am in my second year.",
+      "My favorite parts about software development are the problem-solving and the creativity.",
+      "I enjoy solving problems, and I like to be creative with my solutions.",
+      "I also like to learn new things, and I am always looking for ways to improve myself.",
+      "And in my spare time, I like to play video games, watch movies, and listen to music.",
+      "My favorite game is Elden Ring, my favorite movie is Spiderman into the spiderverse, and my favorite artist is MF DOOM.",
   ];
   
   let currentLineIndex = 0;
