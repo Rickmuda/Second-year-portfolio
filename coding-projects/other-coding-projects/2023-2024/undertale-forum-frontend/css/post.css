@@ -1,0 +1,54 @@
+.centered-box {
+    width: 1304px; 
+    height: 700px; 
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.left-side {
+    flex: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 40px;
+
+}
+
+.post-image {
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    position: relative; /* Add relative positioning */
+}
+
+.additional-box {
+    width: 220px;
+    height: 70px;
+    background-color: black; /* Adjust the background color as needed */
+    margin-top: auto; /* Push the box to the bottom */
+    position: absolute; /* Use absolute positioning */
+    bottom: 0;
+    left: 0;
+    margin-left: 414px; /* Adjust margin as needed */
+    margin-bottom: 150px; /* Adjust margin to avoid overlap with h1 */
+}
+
+.show-replies {
+    width: 220px;
+    height: 70px;
+    background-color: black; /* Adjust the background color as needed */
+    margin-top: auto;
+    margin-bottom: 30px; /* Adjust margin from the footer */
+}
+
+.right-side {
+    flex: 1;
+    margin-top: 80px;
+    margin-right: 100px;
+}

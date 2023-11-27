@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>  
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Irritante webpagina</title>
+  <meta name="viewport" content="user-scalable=yes,width=device-width,initial-scale=1">
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+  <script src="https://kit.fontawesome.com/52c5a9644c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--De code voor de jumpscare-->
+  <div id="jumpscare">
+    <img src="img/scary_image.gif" alt="jumpscare">
+    <audio id="scream" src="sound/scream1.mp3" preload="auto"></audio>
+  </div>
+
+  <!--De "ontzichtbare knop" die de hele pagina opneemt op een paar elementen na die je naar de spicy website sturen-->
+  <div id="invisible-button"></div>
+
+  <!--De maingrid zorgt er eigenlijk puur voor dat de website in 2 gelijke delen wordt opgedeelt wordt.-->
+  <div class="maingrid">
+
+    <!--De linkerkant van de webpagina, deze bevat tekst met een typewriter effect.-->
+    <div class="links"> 
+      <div id="typedtext"></div>
+    </div>
+
+    <!--De rechterkant van de webpagina, deze bevat de slideshow-container.-->
+    <div class="rechts">
+        <div class="slideshow-container">
+
+              <!--De verschillende fotos bij de slideshow.-->
+              <div class="mySlides fade">
+                <img src="./img/gif1.gif" style="width:100%" height="100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./img/gif2.gif" style="width:100%" height="100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./img/gif4'.gif" style="width:100%" height="100%">
+              </div>
+              <div class="mySlides fade">
+                  <img src="./img/hm1.gif" style="width:100%" height="100%">
+              </div>  
+
+              <!--De knoppen waarmee je door de images heen kan gaan.-->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         
+
+              <!--De stippjes die laten zien bij welke foto je bent.-->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div> 
+        </div>
+    </div>
+
+  </div>
+
+    <script src='./js/sricpt.js'></script>
+
+</body>
+
+    <!--De youtube video die links onderin vast zit aan de footer.-->
+    <footer class="fixed"> <iframe width="300px" height="200px"  src="https://www.youtube.com/watch?v=zsVowIwg9ws?autoplay=1&" title="Kermit is Never Gonna Give You Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></footer>
+
+</html>

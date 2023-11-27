@@ -1,0 +1,58 @@
+.centered-box {
+    width: 1304px;
+    height: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.register-form {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.register-form h2 {
+    color: white;
+}
+
+.register-form label {
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: #1A1A1A 5px solid;
+}
+
+.register-form button {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-family: Determination;
+    font-size: 20px;
+}
+
+/* Style for the file input button */
+.register-form input[type="file"]::-webkit-file-upload-button {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the file input text */
+.register-form input[type="file"]::file-selector-button {
+    font-family: Determination;
+    font-size: 15px;
+}
+

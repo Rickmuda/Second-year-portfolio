@@ -1,0 +1,50 @@
+.centered-box {
+    width: 1304px;
+    height: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    position: relative; /* Added for absolute positioning */
+}
+
+.square-container {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.big-square {
+    width: 215px;
+    height: 215px;
+    background-color: #1A1A1A; /* You can change the color */
+}
+
+.small-box {
+    width: 175px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #1A1A1A; /* You can change the color */;
+}
+
+.second-big-square {
+    width: 550px;
+    height: 550px;
+    background-color: #1A1A1A; /* You can change the color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.form-container {
+    width: 80%; /* Adjust the width as needed */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}

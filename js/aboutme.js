@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let typingSpeed = 50; // Adjust the typing speed as needed (milliseconds)
   let isTyping = false;
   
-  const images = ['../img/about_me/self-image-1.png', '../img/about_me/self-image-2.png'];
+  const images = ['../img/about-me/self-image-1.png', '../img/about-me/self-image-2.png'];
   let currentImageIndex = 0;
   
   // Create an audio element and set the source to the new sound path
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                       // Text line is fully typed, increment the line index
                       currentLineIndex++;
                       isTyping = false;
-                      imageElement.src = '../img/about_me/self-image-1.png'; // Set the image to self-image-1 when typing is done
+                      imageElement.src = '../img/about-me/self-image-1.png'; // Set the image to self-image-1 when typing is done
                       
                       // Pause the audio when typing is done
                       audioElement.pause();
@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function () {
 if (currentLineIndex === 3) {
     let imageElement1 = document.getElementById('image1');
     let imageElement2 = document.getElementById('image2');
-    imageElement1.src = '../img/about_me/hand.png';
-    imageElement2.src = '../img/about_me/CV.png';
+    imageElement1.src = '../img/about-me/hand.png';
+    imageElement2.src = '../img/about-me/CV.png';
     imageElement1.style.display = 'block';
     imageElement2.style.display = 'block';
 }

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Determination;
+    src: url(../fonts/Determination.ttf);
+}
+
+body {
+    font-family: Determination;
+    color: white;
+    background-color: #1A1A1A;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center;
+    padding: 10px;
+    height: 90px;
+}
+
+.navbar a {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between the links */
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #F9FF10;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+ul {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a :hover {
+    color: #F9FF10;
+}

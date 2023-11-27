@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/createpost.css">
+    <title>Create post</title>
+    <script src="../js/createpost.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <a href="../index.html">Home</a>
+                <a href="./login.html">Login</a>
+                <a href="./register.html">Register</a>
+                <a href="./posts.html">Posts</a>
+                <a href="./settings.html">Settings</a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="centered-box">
+        <div class="square-container">
+            <div class="big-square" id="preview"></div>
+            <label for="imageUpload" class="small-box" onclick="handleImageUpload()">Upload Image</label>
+            <input type="file" id="imageUpload" style="display: none;" accept="image/*" onchange="handleImagePreview(event)">
+        </div>
+
+        <div class="second-big-square">
+            <div class="form-container">
+                <h1>Create a New Post</h1>
+                <form>
+                    <label for="postTitle">Post Title:</label>
+                    <input type="text" id="postTitle" name="postTitle" required>
+
+                    <label for="postDescription">Post Description:</label>
+                    <textarea id="postDescription" name="postDescription" rows="4" required></textarea>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer">
+        <!-- Content for the footer -->
+    </div>
+</body>
+</html>
