@@ -78,8 +78,6 @@ if (isset($conn)) {
 </head>
 <body>
     <header>
-        <!-- Include the header -->
-        <?php include '../includes/header.php'; ?>
         <!-- Include the navigation bar -->
         <?php include '../includes/navbar.php'; ?>
     </header>

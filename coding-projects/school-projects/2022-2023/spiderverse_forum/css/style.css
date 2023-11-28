@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Cheesecake';
+    src: url(../fonts/Cheesecake.ttf);
+}
+
+body {
+    font-family: 'Cheesecake', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #31304D;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    font-family: 'Cheesecake', sans-serif;
+    margin-top: 10px;
+    background-color: #161A30;
+}
+
+ul {
+    font-family: 'Cheesecake', sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'Cheesecake', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    color: #B6BBC4;
+}
+
+a {
+    font-family: 'Cheesecake', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #B6BBC4;
+}
+
+h2, p {
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Index */
+.box {
+    width: 350px;
+    height: 550px; /* Increased height for better spacing */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid #161A30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 100%; /* Full width */
+    height: auto; /* Auto height for dynamic content */
+    text-overflow: ellipsis;
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    font-size: 24px; /* Adjusted font size */
+    text-align: center;
+}
+
+.description {
+    margin-top: 10px; /* Adjusted margin for spacing */
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    font-size: 16px; /* Adjusted font size */
+}
+
+/* Add custom CSS for the "Read More" button */
+.read-more-button {
+    background-color: #161A30;
+    font-family: 'Cheesecake', sans-serif;
+    font-size: 20px;
+    color: #B6BBC4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjusted padding for better button appearance */
+    cursor: pointer;
+}
+
+/* Register */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161A30;
+    color: #B6BBC4;
+    text-align: center;
+    padding: 1em;
+}
+
+header img{
+    width: 1300px;
+    height: 200px;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    font-size: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #333;
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 250px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.category-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #777;
+    color: white;
+    text-decoration: none;
+}
+
+.post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+strong {
+    font-family: 'Cheesecake', sans-serif;
+    margin-right: 15px;
+    color: #161A30;
+    
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.profile-info-text {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin-left: 200px;
+    margin-top: 200px;
+    text-align: center;
+}
+/* Add this style for centering the form */
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.center-form textarea {
+    margin-top: 10px;
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    font-size: 16px;
+}
+
+.center-form .update-button {
+    margin-top: 10px;
+    background-color: #333;
+    font-family: 'Cheesecake', sans-serif;
+    color: #B6BBC4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-form .update-button:hover {
+    background-color: #555;
+}

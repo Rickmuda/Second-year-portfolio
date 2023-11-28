@@ -10,11 +10,9 @@
 </head>
 <body>
     <header>
-        <?php include '../includes/header.php'; ?>
         <?php include '../includes/navbar.php'; ?>
-        <h2>Login</h2>
     </header>
-
+<div class="center-form">
     <!-- Login form -->
     <form action="pages/login.php" method="post">
         <label for="username">Username:</label>
@@ -25,7 +23,7 @@
 
         <button type="submit" name="login">Login</button>
     </form>
-
+</div>
     <?php
     // Handle login form submission
     if (isset($_POST['login'])) {
