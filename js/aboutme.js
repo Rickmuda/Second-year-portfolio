@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
       "I enjoy solving problems, and I like to be creative with my solutions.",
       "In the future, I see myself doing fullstack development. But for right now, I am focusing on frontend development.",
       "But I am always open to learning new things, and I am always looking for new challenges.",
-      "And in my spare time, I like to play video games, watch movies, listen to music and play magic the gathering.",
-      "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderverse, my favorite artist is MF DOOM, and my favorite MTG colors are black and green.",
-      "If you are interested in my work, you can find my CV right here.",
+      "And in my spare time, I like to play video games, watch movies and listen to music.",
+      "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderversea and my favorite artist is MF DOOM.",
+      "If you are interested in my work, you can find my CV to my right.",
       "Thank you for your time, and have a wonderful day."
   ];
 
