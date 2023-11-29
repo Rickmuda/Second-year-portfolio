@@ -63,8 +63,17 @@ h5 {
 
 h6 {
   color: #fff3f3;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-stroke: #a07cff 0.5px;
+}
+
+h7 { 
+  color: #fff3f3;
+  font-size: 30px;
+  -webkit-text-stroke: #a07cff 0.5px;
+  text-decoration: none;
+  margin-top: 30px;
+  overflow: hidden;
 }
 
 
@@ -77,6 +86,7 @@ h6 {
   display: block;
   text-align: center; /* Center the text horizontally */
   padding-bottom: -30px;
+  overflow: hidden;
 }
 
           .custom-text:visited {

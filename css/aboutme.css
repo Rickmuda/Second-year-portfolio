@@ -31,12 +31,22 @@
 }
 
 #image2 {
-  width: 200px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  display: none; /* Initially hide the CV image */
+  width: 200px;
+  height: auto;
+  display: none;
   position: absolute;
   top: 30%;
   left: 75%;
+}
+
+#cvLink {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 30%; /* Adjust the top position to match #image2 */
+  left: 65%; /* Adjust the left position to match #image2 */
+  z-index: 1; /* Ensure #cvLink is in front of #image2 */
 }
 
 /* CSS Animation: Spin Image */
@@ -53,4 +63,16 @@
   animation: spin 5s infinite linear;
   opacity: 1;
   visibility: visible;
+}
+
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: VCR_OSD_MONO_1;
+  color: #fff3f3;
+  -webkit-text-stroke: #a07cff 0.5px;
+  display: block;
+  text-align: center;
+  
 }
