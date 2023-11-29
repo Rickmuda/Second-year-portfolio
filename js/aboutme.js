@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "I am currently studying Software Development, and I am in my second year.",
         "My favorite parts about software development are the problem-solving and the creativity.",
         "I enjoy solving problems, and I like to be creative with my solutions.",
-        "In the future, I see myself doing fullstack development, but for right now, I am focusing on frontend development.",
+        "For the future, I see myself doing fullstack development, but for right now, I am focusing on frontend development.",
         "But I am always open to learning new things, and I am always looking for new challenges.",
         "And in my spare time, I like to play video games, watch movies, and listen to music.",
         "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderverse, and my favorite artist is MF DOOM.",
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     function handleSpecialLine() {
       // Detect when the line mentioning the CV is being displayed
-      if (currentLineIndex === 2) { // Adjust the index based on your actual line number
+      if (currentLineIndex === 10) { // Adjust the index based on your actual line number
         // Make the CV image visible and start spinning
         cvImage.style.display = 'block';
         spinCVImage();

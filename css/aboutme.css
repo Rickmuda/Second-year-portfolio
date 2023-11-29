@@ -31,7 +31,7 @@
 }
 
 #image2 {
-  width: 100px; /* Adjust the width as needed */
+  width: 200px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   display: none; /* Initially hide the CV image */
   position: absolute;
@@ -42,10 +42,10 @@
 /* CSS Animation: Spin Image */
 @keyframes spin {
   from {
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
   }
   to {
-    transform: rotateX(360deg);
+    transform: rotateY(360deg);
   }
 }
 
