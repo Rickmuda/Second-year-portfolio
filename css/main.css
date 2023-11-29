@@ -61,6 +61,12 @@ h5 {
   font-size: 25px;
 }
 
+h6 {
+  color: #fff3f3;
+  font-size: 35px;
+  -webkit-text-stroke: #a07cff 0.5px;
+}
+
 
 /* "Return" Link */
 .custom-text a {
@@ -70,6 +76,7 @@ h5 {
   -webkit-text-stroke: #a07cff 0.5px;
   display: block;
   text-align: center; /* Center the text horizontally */
+  padding-bottom: -30px;
 }
 
           .custom-text:visited {
