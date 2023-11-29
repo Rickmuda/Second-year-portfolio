@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<header>
+   <h1>Sudoku</h1>
+   <div id="setup-game">
+       <div id="diff">
+          <h3></h3>
+          <label><input id="diff-1" type="radio" name="diff" value="easy" checked>ez</label>
+          <label><input id="diff-2" type="radio" name="diff" value="medium" checked>mid</label>
+          <label><input id="diff-3" type="radio" name="diff" value="hard" checked>yes</label>
+       </div>    
+   </div>
+   <button class="button button1"id="start-btn">Start</button>
+</header>
+<body>
+
+<audio id="background-audio" loop>
+    <source src="/songs/fohad.mp3" type="audio/mpeg">
+</audio>
+
+    <div id="stats">
+        <p id="timer"></p>
+        <p id="lives"></p>
+    </div>
+
+    <div id="game">
+        <div id="board"></div>
+        <div id="number-container" class="hidden">
+            <p id="one">1</p>
+            <p id="two">2</p>
+            <p id="three">3</p>
+            <p id="four">4</p>
+            <p id="five">5</p>
+            <p id="six">6</p>
+            <p id="seven">7</p>
+            <p id="eight">8</p>
+            <p id="nine">9</p>
+        </div>
+    </div>
+</body>
+</html>

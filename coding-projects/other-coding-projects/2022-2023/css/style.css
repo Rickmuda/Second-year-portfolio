@@ -1,0 +1,139 @@
+.hidden{
+    display: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    background-image: url("/img/wallpaper.jpg");
+    object-fit: cover;
+}
+
+header{
+    text-align: center;
+    padding-top: -60px;
+}
+
+@font-face {
+    font-family: "Determenation";
+    src: local(Determenation), url(/fonts/Determination.ttf);
+}
+
+h1{
+    font-size: 150px;
+    font-family: "Determenation";
+    -webkit-text-stroke: 1px black;
+}
+
+h2{
+    font-size: 30pt;
+    font-family: "Determenation";
+    color: white;
+}
+
+#setup-game{
+    display: flex;
+    justify-content: center;
+} 
+
+label {
+    font-family: "Determenation";
+    font-size: 55px;
+}
+
+#setup-game > *{
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color:transparent;
+    justify-self: center;
+    font-size: 50px;
+    font-family: "Determenation";
+ }
+
+ .button1 {
+    background-color: white;
+}
+
+#audio-player {
+    display: none;
+  }
+
+p#timer ,p#lives{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+}
+
+#number-container > p {
+    border: 5px solid white;
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Determenation";
+    font-size: 55px;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+.tile {
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    font-family: "Determenation";
+    font-size: 55px;
+}
+
+p.selected {
+    background-color: lightblue;
+}
+
+p.incorrect {
+    color: red;
+}
+
+.rightBorder {
+    border-right: 4px solid white;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid white;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+}
