@@ -35,8 +35,8 @@
   height: auto; /* Maintain aspect ratio */
   display: none; /* Initially hide the CV image */
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 30%;
+  left: 75%;
 }
 
 /* CSS Animation: Spin Image */
