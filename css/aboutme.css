@@ -50,7 +50,7 @@
 }
 
 .spin {
-  animation: spin 2s infinite linear;
+  animation: spin 5s infinite linear;
   opacity: 1;
   visibility: visible;
 }
