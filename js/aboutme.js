@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "In the future, I see myself doing fullstack development. But for right now, I am focusing on frontend development.",
       "But I am always open to learning new things, and I am always looking for new challenges.",
       "And in my spare time, I like to play video games, watch movies and listen to music.",
-      "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderversea and my favorite artist is MF DOOM.",
+      "My favorite game is Bloodborne, my favorite movie is Spiderman into the spiderverse and my favorite artist is MF DOOM.",
       "If you are interested in my work, you can find my CV to my right.",
       "Thank you for your time, and have a wonderful day."
   ];
