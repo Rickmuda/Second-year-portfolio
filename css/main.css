@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
+  overflow:-moz-hidden-unscrollable;
 }
 
 @font-face {
@@ -52,7 +53,7 @@ h3 {
 
 h4 {
   color: #fff3f3;
-  font-size: 40px;
+  font-size: 30px;
   -webkit-text-stroke: #a07cff 0.2px;
 }
 
