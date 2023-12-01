@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+
+  <form id="taskForm">
+    <label for="taskDescription">Task:</label>
+    <input type="text" id="taskDescription" required>
+<br>
+    <label for="completionDate">Completion Date:</label>
+    <input type="date" id="completionDate" required>
+<br>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+<script>
+  const taskForm = document.getElementById('taskForm');
+  const taskDescriptionInput = document.getElementById('taskDescription');
+  const completionDateInput = document.getElementById('completionDate');
+  const taskList = document.getElementById('taskList');
+
+  // Fetch tasks from the API and display them
+  async function fetchAndDisplayTasks() {
+    const response = await fetch('http://localhost:3000/tasks');
+    const tasks = await response.json();
+
+    taskList.innerHTML = tasks.map(task => `
+      <li>
+        ${task.description} (Completion Date: ${task.completion_date || 'N/A'})
+        <button onclick="removeTask(${task.id})">Remove</button>
+      </li>
+    `).join('');
+  }
+
+  // Add event listener to the form for adding tasks
+  taskForm.addEventListener('submit', async function (event) {
+    event.preventDefault();
+
+    const description = taskDescriptionInput.value;
+    const completionDate = completionDateInput.value;
+
+    // Post data to the API
+    await fetch('http://localhost:3000/tasks', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ description, completion_date: completionDate }),
+    });
+
+    // Fetch and display updated tasks
+    await fetchAndDisplayTasks();
+
+    // Clear the form inputs
+    taskDescriptionInput.value = '';
+    completionDateInput.value = '';
+  });
+
+  // Function to remove a task
+  async function removeTask(taskId) {
+    // Send a DELETE request to the API
+    await fetch(`http://localhost:3000/tasks/${taskId}`, { method: 'DELETE' });
+
+    // Fetch and display updated tasks
+    await fetchAndDisplayTasks();
+  }
+
+  // Initial fetch and display of tasks
+  fetchAndDisplayTasks();
+</script>
+</body>
+</html>
