@@ -19,9 +19,7 @@ body {
 }
 
 /* Anti-text decoration */
-body a:visited {
-  color: #fff3f3;
-}
+
 
 a:link {
   text-decoration: none;
