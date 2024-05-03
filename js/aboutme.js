@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const nextLineAnchor = document.getElementById('nextLineAnchor'); // Get the anchor tag by ID
   const textLines = [
       "Greetings.",
-      "My name is Rick Ambergen, and I am a 21-year-old student at Alfa-College Groningen.",
+      "My name is Rick Ambergen, and I am a 22-year-old student at Alfa-College Groningen.",
       "I am currently studying Software Development, and I am in my second year.",
       "My favorite parts about software development are the creativity and the endless possibilities that coding can make.",
       "I enjoy solving problems, and I like to be creative with my solutions so I can solve problems in my own way.",
