@@ -21,8 +21,10 @@ body {
 /* Anti-text decoration */
 
 
-a:link {
+a {
   text-decoration: none;
+  color: #fff3f3;
+  -webkit-text-stroke: #a07cff 0.5px;
 }
 
 /* Text */
@@ -64,6 +66,7 @@ h6 {
   color: #fff3f3;
   font-size: 20px;
   -webkit-text-stroke: #a07cff 0.5px;
+  text-decoration: none;
 }
 
 h7 { 
@@ -119,5 +122,9 @@ h7 {
           }
 
 
-
+      /* 
+        #2c2c2a - background
+        #a07cff - text
+        #fff3f3 - text border
+      */
 
