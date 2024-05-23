@@ -20,9 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // After another delay, redirect to another page
         setTimeout(function() {
             window.location.href = './html/saves.html'; // Replace with your new page URL
-        }, 2000); // 2000 milliseconds (2 seconds)
+        }, 1000); // 1000 milliseconds (1 seconds)
     }
 
     document.addEventListener('keypress', redirectToNewPage);
     document.addEventListener('click', redirectToNewPage);
 });
+
+document.getElementById('rickvlogs').onclick = function(event) {
+    event.stopPropagation();
+    window.location.href = '/html/password.html';
+};
