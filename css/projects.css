@@ -1,41 +1,33 @@
-
-.row {
-    display: flex;
+.column {
+    width: calc(100% / 3); /* Set width to one-third of the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add padding to create space between columns */
+    float: left; /* Float columns next to each other */
+    text-align: center; /* Center project name and image */
 }
 
-.column {
-    flex: 50%;
-    padding: 10px;
-    margin: 0 150px;
-    
+.row {
+    clear: both; /* Clear floating elements */
 }
 
 .column img {
-    max-width: auto;
-    height: 250px;
-    border: 5px solid #a07cff;
-    border-radius: 2px;
-    background-clip: padding-box;
-    box-decoration-break: clone;
+    width: 250px; /* Ensure images fill their parent container */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #a07cff; /* Add a basic border */
 }
 
-
-.column:hover img {
+.column img:hover {
+    opacity: 0.5; /* Reduce image opacity on hover */
     border: 5px solid #fff3f3;
 }
 
-.category-div {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    width: 200px;
-    height: 10px;
-    padding-bottom: 20px;
-    
+label {
+    font-size: 30px;
+    color: #fff3f3;
+    -webkit-text-stroke: #a07cff 0.5px;
 }
 
-.category-content {
-    display: none;
+input {
+    margin-right: 15px;
+    margin-left: -5px;
 }
