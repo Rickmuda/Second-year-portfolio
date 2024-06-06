@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-                <?php include '../includes/navbar.php'; ?>
+                <?php include './includes/navbar.php'; ?>
     </header>
 <div class="center-form">
     <!-- Registration form -->
@@ -58,7 +58,10 @@
         $stmt->bind_param("ssss", $username, $email, $password, $profilePictureName);
 
         if ($stmt->execute()) {
-            echo '<p class="success">Registration successful. You can now <a href="login.php">log in</a>.</p>';
+            // Get the ID of the newly inserted user
+            $userId = $conn->insert_id;
+            
+            echo '<p class="success">Registration successful. Your user ID is ' . $userId . '. You can now <a href="login.php">log in</a>.</p>';
         } else {
             echo '<p class="error">Registration failed. Please try again.</p>';
         }
