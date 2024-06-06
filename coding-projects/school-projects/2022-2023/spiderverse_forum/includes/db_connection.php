@@ -1,8 +1,8 @@
 <?php
 // Database connection details
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "localhost:3306";
+$username = "muda";
+$password = "230402";
 $dbname = "spiderverse";
 
 // Create connection
