@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-     <!-- Add the base tag with the correct relative URL -->
     <title>User Registration</title>
 </head>
 <body>

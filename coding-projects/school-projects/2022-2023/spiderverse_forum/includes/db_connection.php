@@ -1,6 +1,6 @@
 <?php
 // Database connection details
-$servername = "localhost:3306";
+$servername = "localhost";
 $username = "muda";
 $password = "";
 $dbname = "spiderverse";
