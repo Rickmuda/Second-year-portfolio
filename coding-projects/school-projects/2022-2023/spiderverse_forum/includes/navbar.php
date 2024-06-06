@@ -10,7 +10,7 @@ $isAdmin = false; // Replace with actual admin check
 
 // Check if the user is logged in
 if ($userLoggedIn) {
-    include __DIR__ . '/../includes/db_connection.php'; // Adjust the path as needed
+    include __DIR__ . '../includes/db_connection.php'; // Adjust the path as needed
 
     // Get the database connection
     $conn = getDbConnection();

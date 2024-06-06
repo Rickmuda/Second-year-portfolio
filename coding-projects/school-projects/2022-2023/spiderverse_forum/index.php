@@ -18,7 +18,7 @@
     <main>
         <?php
         // Include the database connection
-        include_once 'includes/db_connection.php';
+        include_once './includes/db_connection.php';
 
         // Get the database connection
         $conn = getDbConnection();
