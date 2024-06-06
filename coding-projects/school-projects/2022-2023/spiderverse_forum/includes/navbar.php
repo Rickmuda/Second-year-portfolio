@@ -51,19 +51,19 @@ $navButtons = [];
 if (!$userLoggedIn) {
     // Display buttons for logged-out users
     $navButtons = [
-        '<li><a href="/index.php">Home</a></li>',
-        '<li><a href="/pages/posts.php">Posts</a></li>',
-        '<li><a href="/pages/login.php">Log in</a></li>',
-        '<li><a href="/pages/register.php">Register</a></li>',
+        '<li><a href="./index.php">Home</a></li>',
+        '<li><a href="./pages/posts.php">Posts</a></li>',
+        '<li><a href="./pages/login.php">Log in</a></li>',
+        '<li><a href="./pages/register.php">Register</a></li>',
     ];
 } else {
     // Display buttons for logged-in users
     $navButtons = [
-        '<li><a href="/index.php">Home</a></li>',
-        '<li><a href="/pages/profile.php">Profile</a></li>',
-        '<li><a href="/pages/posts.php">Posts</a></li>',
-        '<li><a href="/pages/create_post.php">Create Post</a></li>',
-        '<li><a href="/pages/logout.php">Log out</a></li>',
+        '<li><a href="./index.php">Home</a></li>',
+        '<li><a href="./pages/profile.php">Profile</a></li>',
+        '<li><a href="./pages/posts.php">Posts</a></li>',
+        '<li><a href="./pages/create_post.php">Create Post</a></li>',
+        '<li><a href="./pages/logout.php">Log out</a></li>',
     ];
 
     // Add admin-specific button for logged-in admins
