@@ -2,7 +2,7 @@
 // Database connection details
 $servername = "localhost:3306";
 $username = "muda";
-$password = "230402";
+$password = "";
 $dbname = "spiderverse";
 
 // Create connection
