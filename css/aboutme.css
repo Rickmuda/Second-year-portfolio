@@ -65,7 +65,6 @@
   visibility: visible;
 }
 
-
 a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
@@ -74,5 +73,21 @@ a:-webkit-any-link {
   -webkit-text-stroke: #a07cff 0.5px;
   display: block;
   text-align: center;
-  
+}
+
+/* Navigation Arrows */
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0 20px;
+  color: #fff3f3;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: #a07cff;
 }
