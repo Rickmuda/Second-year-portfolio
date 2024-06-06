@@ -5,8 +5,9 @@
 body{
     background-color: black;
     color: white;
-    background-image: url("/img/wallpaper.jpg");
+    background-image: url("../img/wallpaper.jpg");
     object-fit: cover;
+    font-family: "Determenation";
 }
 
 header{
@@ -16,7 +17,7 @@ header{
 
 @font-face {
     font-family: "Determenation";
-    src: local(Determenation), url(/fonts/Determination.ttf);
+    src: url(/fonts/Determination.ttf);
 }
 
 h1{
@@ -85,7 +86,7 @@ p#timer ,p#lives{
     text-align: center;
     font-family: "Determenation";
     font-size: 55px;
-    
+    background-color: rgb(52, 128, 214);
 }
 
 img {
@@ -103,7 +104,7 @@ img {
     align-content: center;
     width: 600px;
     height: 600px;
-    background-color: black;
+    background-color: rgb(52, 128, 214);
 }
 
 .tile {
