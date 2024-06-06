@@ -13,10 +13,10 @@ var projectsData = [
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/irritante-webpagina.html",
         languages: ["css", "js", "html"] 
     },
-    { 
+    {
         project_id: 3,
         project_name: "WHACK A MOM", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390489443668008/whack-a-mom.png?ex=66637dbe&is=66622c3e&hm=ffed9a33b4b9880f4872a3edcb11cf09138282b848e37b055ddef759ae70485c&", 
+        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248411130444120115/whack-a-mom.png?ex=666390f7&is=66623f77&hm=8e65b960c4c4697201b160d689affd793eea3e7b2d024f17d137faf605e6739e&", 
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/whack-a-mom.html",
         languages: ["js", "css", "html"] 
     },
@@ -34,10 +34,10 @@ var projectsData = [
         project_url: "../html/project-explanations/other-coding-projects/2022-2023/undertale-sudoku.html",
         languages: ["js", "css", "html"] 
     },
-    { 
+    {
         project_id: 6,
         project_name: "GYM CHECKLIST", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390562743058432/gym-list.png?ex=66637dd0&is=66622c50&hm=4489fa9a64eaba6ceb8b4b83265472fd711b060b3c825a811fb2d9a1f6770b89&", 
+        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248411154032754688/gym-list.png?ex=666390fd&is=66623f7d&hm=9b9db824bf54b5506ddf2da43740f140964cef6cbd2d0dcf5f0e8f4b06cf18c0&", 
         project_url: "../html/project-explanations/other-coding-projects/2023-2024/gym-list.html",
         languages: ["html", "css", "js"] 
     },
