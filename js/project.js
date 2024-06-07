@@ -58,36 +58,11 @@ var projectsData = [
 
     {
         project_id: 9,
-        project_name: "ENGLISH QUIZ", 
-        project_img: "https://media.discordapp.net/attachments/1248389984474370069/1248390487795306647/english-quiz.png?ex=66637dbe&is=66622c3e&hm=e9e6d02b2f2fa2eb3af94a26ab0d3386836a312d8eb9751bb8c5d107fb57e0d2&=&format=webp&quality=lossless&width=705&height=391", 
-        project_url: "../html/project-explanations/school-coding-projects/2022-2023/english-quiz.html",	
-        languages: ["html", "css", "js"] 
-    },
-
-    {
-        project_id: 10,
-        project_name: "UNDERTALE FORUM", 
-        project_img: "https://media.discordapp.net/attachments/1248389984474370069/1248390512893759518/undertale-laravel.png?ex=66637dc4&is=66622c44&hm=ccac757ccc1288d48f22f8adfb8590274484d96a4b6d35351910ee200e2f89a6&=&format=webp&quality=lossless&width=705&height=389", 
-        project_url: "",	
-        languages: ["php", "css",] 
-    },
-
-    {
-        project_id: 11,
         project_name: "TO DO LIST", 
         project_img: "https://media.discordapp.net/attachments/1248389984474370069/1248390512457683005/todolist.png?ex=66637dc4&is=66622c44&hm=0a0f2cb67afda5d0afabbf996db3f8e298171664e42a6a6ae920eb6fd49df530&=&format=webp&quality=lossless&width=705&height=388", 
         project_url: "",	
         languages: ["js", "css", "html"] 
     },
-
-    {
-        project_id: 12,
-        project_name: "WEBSHOP HET COOLE PLAATJE", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390489036816444/webshop.png?ex=66637dbe&is=66622c3e&hm=d48b7ae79bc9d2060ee7db528477edb2c6b11f43a0a9bbf1e00bea6f624abad8&", 
-        project_url: "",	
-        languages: ["php", "css", "js"] 
-    },
-
 ];
 
 function generateProjectColumns() {
