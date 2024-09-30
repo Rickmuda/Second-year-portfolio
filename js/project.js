@@ -2,56 +2,56 @@ var projectsData = [
     { 
         project_id: 1,
         project_name: "SPIDERVERSE FORUM", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390302918770718/spiderverse-forum.png?ex=66637d92&is=66622c12&hm=ebe8c238c4e6f0d6377412375ff818079bcf499575ca9e00715a1160673adbe5&", 
+        project_img: "../img/coding-projects/spiderverse-forum.png", 
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/spiderverse-forum.html",
         languages: ["php", "css"] 
     },
     { 
         project_id: 2,
         project_name: "ANNOYING WEBPAGE", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390488210411530/irritante-webpagina.png?ex=66637dbe&is=66622c3e&hm=195b9316732e64fe23ac68666299b62f47a35542446e3de7e6280ceeeb4c5e0c&", 
+        project_img: "../img/coding-projects/irritante-webpagina.png", 
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/irritante-webpagina.html",
         languages: ["css", "js", "html"] 
     },
     {
         project_id: 3,
         project_name: "WHACK A MOM", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248411130444120115/whack-a-mom.png?ex=666390f7&is=66623f77&hm=8e65b960c4c4697201b160d689affd793eea3e7b2d024f17d137faf605e6739e&", 
+        project_img: "../img/coding-projects/wack-a-mom.png", 
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/whack-a-mom.html",
         languages: ["js", "css", "html"] 
     },
     { 
         project_id: 4,
         project_name: "ONE PAGER", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390488676110366/one-pager.png?ex=66637dbe&is=66622c3e&hm=8600b4d9e21c7846c3fdab250ed9d7d6a4a26c042f6cbb90bbc24694b50d92ce&", 
+        project_img: "../img/coding-projects/one-pager.png", 
         project_url: "../html/project-explanations/school-coding-projects/2022-2023/one-pager.html",
         languages: ["html", "css"] 
     },
     { 
         project_id: 5,
         project_name: "UNDERTALE SUDOKU", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248390546330746953/undertale-sudoku.png?ex=66637dcc&is=66622c4c&hm=3210489eedb3b559e312fe51b49a41a69d558e93c1e2b2ee7abbee0ba9042510&", 
+        project_img: "../img/coding-projects/undertale-sudoku.png", 
         project_url: "../html/project-explanations/other-coding-projects/2022-2023/undertale-sudoku.html",
         languages: ["js", "css", "html"] 
     },
     {
         project_id: 6,
         project_name: "GYM CHECKLIST", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248411154032754688/gym-list.png?ex=666390fd&is=66623f7d&hm=9b9db824bf54b5506ddf2da43740f140964cef6cbd2d0dcf5f0e8f4b06cf18c0&", 
+        project_img: "../img/coding-projects/gym-list.png", 
         project_url: "../html/project-explanations/other-coding-projects/2023-2024/gym-list.html",
         languages: ["html", "css", "js"] 
     },
     { 
         project_id: 7,
         project_name: "WEATHER APP", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248401276593770587/underconstruction.png?ex=666387ca&is=6662364a&hm=f2247f39c5df259859d0692867ee4c6437d52f126b609fa304b4d1230fc80c65&", 
+        project_img: "../img/coding-projects/", 
         project_url: "",
         languages: ["react", "css", "js"] 
     },
     { 
         project_id: 8,
         project_name: "LONG VIDEO THEATER", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248401276593770587/underconstruction.png?ex=666387ca&is=6662364a&hm=f2247f39c5df259859d0692867ee4c6437d52f126b609fa304b4d1230fc80c65&", 
+        project_img: "../img/coding-projects/", 
         project_url: "",
         languages: ["react", "css", "js"] 
     },
@@ -59,7 +59,7 @@ var projectsData = [
     {
         project_id: 9,
         project_name: "TO DO LIST", 
-        project_img: "https://media.discordapp.net/attachments/1248389984474370069/1248390512457683005/todolist.png?ex=66637dc4&is=66622c44&hm=0a0f2cb67afda5d0afabbf996db3f8e298171664e42a6a6ae920eb6fd49df530&=&format=webp&quality=lossless&width=705&height=388", 
+        project_img: "../img/coding-projects/", 
         project_url: "",	
         languages: ["js", "css", "html"] 
     },

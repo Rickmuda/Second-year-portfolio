@@ -1,14 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const sound = new Audio('/sfx/OOT_PressStart.wav');
-    sound.volume = 0.25; // Set the volume to 25%
     const logo = document.querySelector('.logo img');
     const overlay = document.querySelector('.overlay');
 
     function redirectToNewPage() {
-        // Play a sound
-        if (sound.readyState >= 2) {
-            sound.play();
-        }
 
         // Check if the logo element exists
         if (logo) {
