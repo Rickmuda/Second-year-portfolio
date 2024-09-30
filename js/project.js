@@ -3,64 +3,64 @@ var projectsData = [
         project_id: 1,
         project_name: "SPIDERVERSE FORUM", 
         project_img: "../img/coding-projects/spiderverse-forum.png", 
-        project_url: "../html/project-explanations/school-coding-projects/2022-2023/spiderverse-forum.html",
+        project_url: "../html/project-explanations/spiderverse-forum.html",
         languages: ["php", "css"] 
     },
     { 
         project_id: 2,
         project_name: "ANNOYING WEBPAGE", 
         project_img: "../img/coding-projects/irritante-webpagina.png", 
-        project_url: "../html/project-explanations/school-coding-projects/2022-2023/irritante-webpagina.html",
+        project_url: "../html/project-explanations/irritante-webpagina.html",
         languages: ["css", "js", "html"] 
     },
     {
         project_id: 3,
         project_name: "WHACK A MOM", 
-        project_img: "../img/coding-projects/wack-a-mom.png", 
-        project_url: "../html/project-explanations/school-coding-projects/2022-2023/whack-a-mom.html",
+        project_img: "../img/coding-projects/whack-a-mom.png", 
+        project_url: "../html/project-explanations/whack-a-mom.html",
         languages: ["js", "css", "html"] 
     },
     { 
         project_id: 4,
         project_name: "ONE PAGER", 
         project_img: "../img/coding-projects/one-pager.png", 
-        project_url: "../html/project-explanations/school-coding-projects/2022-2023/one-pager.html",
+        project_url: "../html/project-explanations/one-pager.html",
         languages: ["html", "css"] 
     },
     { 
         project_id: 5,
         project_name: "UNDERTALE SUDOKU", 
         project_img: "../img/coding-projects/undertale-sudoku.png", 
-        project_url: "../html/project-explanations/other-coding-projects/2022-2023/undertale-sudoku.html",
+        project_url: "../html/project-explanations/undertale-sudoku.html",
         languages: ["js", "css", "html"] 
     },
     {
         project_id: 6,
         project_name: "GYM CHECKLIST", 
         project_img: "../img/coding-projects/gym-list.png", 
-        project_url: "../html/project-explanations/other-coding-projects/2023-2024/gym-list.html",
+        project_url: "../html/project-explanations/gym-list.html",
         languages: ["html", "css", "js"] 
     },
     { 
         project_id: 7,
         project_name: "WEATHER APP", 
-        project_img: "../img/coding-projects/", 
-        project_url: "",
+        project_img: "../img/coding-projects/unnamed-weather-app.png", 
+        project_url: "../html/project-explanations/unnamed-weather-app.html",
         languages: ["react", "css", "js"] 
     },
     { 
         project_id: 8,
         project_name: "LONG VIDEO THEATER", 
-        project_img: "../img/coding-projects/", 
-        project_url: "",
+        project_img: "../img/coding-projects/missing-picture.jpg", 
+        project_url: "../html/error.html",
         languages: ["react", "css", "js"] 
     },
 
     {
         project_id: 9,
         project_name: "TO DO LIST", 
-        project_img: "../img/coding-projects/", 
-        project_url: "",	
+        project_img: "../img/coding-projects/missing-picture.jpg", 
+        project_url: "../html/error.html",	
         languages: ["js", "css", "html"] 
     },
 ];
