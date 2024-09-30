@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0abe2ad0.css",
+    "main.js": "/static/js/main.fc624f48.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/static/js/453.0ccb7fb4.chunk.js",
+    "static/media/sad-weather-app.png": "/static/media/sad-weather-app.fed6c489989875420236.png",
+    "static/media/happy-weather-app.png": "/static/media/happy-weather-app.69b6ef881f856e15698e.png",
+    "static/media/heatrix.otf": "/static/media/heatrix.453ea7b74827182d2505.otf",
+    "index.html": "/index.html",
+    "main.0abe2ad0.css.map": "/static/css/main.0abe2ad0.css.map",
+    "main.fc624f48.js.map": "/static/js/main.fc624f48.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0abe2ad0.css",
+    "static/js/main.fc624f48.js"
+  ]
+}
