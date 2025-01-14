@@ -2,7 +2,7 @@ var projectsData = [
     { 
         project_id: 1,
         project_name: "SNACK-BAR PODCAST", 
-        project_img: "https://cdn.discordapp.com/attachments/1248389984474370069/1248393251824861224/snackbar-podcast.png?ex=66638051&is=66622ed1&hm=0e51e06b7a0dd15f603384356c71981e1cf49ff45851db7ac38931250eb81b68&", 
+        project_img: "../img/other-projects/snackbar-podcast.png", 
         project_url: "../html/project-explanations/other-other-projects/2023-2024/podcast-snackbar.html",	
     },
 
