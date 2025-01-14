@@ -3,7 +3,7 @@ var projectsData = [
         project_id: 1,
         project_name: "SNACK-BAR PODCAST", 
         project_img: "../img/other-projects/snackbar-podcast.png", 
-        project_url: "../html/project-explanations/other-other-projects/2023-2024/podcast-snackbar.html",	
+        project_url: "../html/project-explanations/podcast-snackbar.html",	
     },
 
 ];
