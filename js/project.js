@@ -51,7 +51,7 @@ var projectsData = [
     { 
         project_id: 8,
         project_name: "LONG VIDEO THEATER", 
-        project_img: "../img/coding-projects/missing-picture.jpg", 
+        project_img: "../img/other-projects/underconstruction.png", 
         project_url: "../html/error.html",
         languages: ["react", "css", "js"] 
     },
@@ -59,7 +59,7 @@ var projectsData = [
     {
         project_id: 9,
         project_name: "TO DO LIST", 
-        project_img: "../img/coding-projects/missing-picture.jpg", 
+        project_img: "../img/other-projects/underconstruction.png", 
         project_url: "../html/error.html",	
         languages: ["js", "css", "html"] 
     },
